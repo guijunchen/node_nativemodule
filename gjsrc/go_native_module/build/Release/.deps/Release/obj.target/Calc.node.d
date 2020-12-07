@@ -1,0 +1,1 @@
+cmd_Release/obj.target/Calc.node := g++ -o Release/obj.target/Calc.node -shared -pthread -rdynamic -m64  -Wl,-soname=Calc.node -Wl,--start-group Release/obj.target/Calc/Calc.o -Wl,--end-group -lnode ../Calc.a
